@@ -1,6 +1,10 @@
 {
-.appVersion = "3148";
+.appVersion = "3314";
 .formatVersion = 3;
+DisplayStrings = (
+"Ğ",
+"ğ"
+);
 axes = (
 {
 name = Weight;
@@ -1275,6 +1279,7 @@ name = f2;
 pos = (0,275);
 }
 );
+iconName = SemiBold;
 id = "68905092-2787-4DB6-B22F-3BD17B98A53B";
 metricValues = (
 {
@@ -17340,13 +17345,17 @@ unicode = 71;
 glyphname = Gbreve;
 kernLeft = _O_left;
 kernRight = _O_right;
-lastChange = "2023-01-04 10:50:46 +0000";
+lastChange = "2024-07-28 05:54:51 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
 shapes = (
 {
 ref = G;
+},
+{
+pos = (163,0);
+ref = brevecomb.case;
 }
 );
 width = 705;
@@ -17356,6 +17365,10 @@ layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
 shapes = (
 {
 ref = G;
+},
+{
+pos = (158,0);
+ref = brevecomb.case;
 }
 );
 width = 715;
@@ -17365,6 +17378,10 @@ layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
 shapes = (
 {
 ref = G;
+},
+{
+pos = (153,0);
+ref = brevecomb.case;
 }
 );
 width = 725;
@@ -17374,6 +17391,10 @@ layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
 shapes = (
 {
 ref = G;
+},
+{
+pos = (148,0);
+ref = brevecomb.case;
 }
 );
 width = 735;
@@ -17383,6 +17404,10 @@ layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
 shapes = (
 {
 ref = G;
+},
+{
+pos = (135,0);
+ref = brevecomb.case;
 }
 );
 width = 770;
@@ -69991,13 +70016,17 @@ unicode = 103;
 glyphname = gbreve;
 kernLeft = _o_right;
 kernRight = _u_left;
-lastChange = "2023-01-04 10:50:46 +0000";
+lastChange = "2024-07-28 05:55:07 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
 shapes = (
 {
 ref = g;
+},
+{
+pos = (118,-170);
+ref = brevecomb.case;
 }
 );
 width = 615;
@@ -70007,6 +70036,10 @@ layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
 shapes = (
 {
 ref = g;
+},
+{
+pos = (108,-170);
+ref = brevecomb.case;
 }
 );
 width = 615;
@@ -70016,6 +70049,10 @@ layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
 shapes = (
 {
 ref = g;
+},
+{
+pos = (98,-170);
+ref = brevecomb.case;
 }
 );
 width = 615;
@@ -70025,6 +70062,10 @@ layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
 shapes = (
 {
 ref = g;
+},
+{
+pos = (88,-170);
+ref = brevecomb.case;
 }
 );
 width = 615;
@@ -70034,6 +70075,10 @@ layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
 shapes = (
 {
 ref = g;
+},
+{
+pos = (63,-170);
+ref = brevecomb.case;
 }
 );
 width = 625;
@@ -242396,7 +242441,6 @@ pos = (0,100);
 ref = parenleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242407,7 +242451,6 @@ pos = (0,100);
 ref = parenleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242418,7 +242461,6 @@ pos = (0,100);
 ref = parenleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242429,7 +242471,6 @@ pos = (0,100);
 ref = parenleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242440,7 +242481,6 @@ pos = (0,100);
 ref = parenleft;
 }
 );
-vertWidth = 0;
 width = 380;
 }
 );
@@ -242457,7 +242497,6 @@ pos = (0,100);
 ref = parenright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242468,7 +242507,6 @@ pos = (0,100);
 ref = parenright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242479,7 +242517,6 @@ pos = (0,100);
 ref = parenright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242490,7 +242527,6 @@ pos = (0,100);
 ref = parenright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242501,7 +242537,6 @@ pos = (0,100);
 ref = parenright;
 }
 );
-vertWidth = 0;
 width = 380;
 }
 );
@@ -242518,7 +242553,6 @@ pos = (0,100);
 ref = braceleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242529,7 +242563,6 @@ pos = (0,100);
 ref = braceleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242540,7 +242573,6 @@ pos = (0,100);
 ref = braceleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242551,7 +242583,6 @@ pos = (0,100);
 ref = braceleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242562,7 +242593,6 @@ pos = (0,100);
 ref = braceleft;
 }
 );
-vertWidth = 0;
 width = 380;
 }
 );
@@ -242579,7 +242609,6 @@ pos = (0,100);
 ref = braceright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242590,7 +242619,6 @@ pos = (0,100);
 ref = braceright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242601,7 +242629,6 @@ pos = (0,100);
 ref = braceright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242612,7 +242639,6 @@ pos = (0,100);
 ref = braceright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242623,7 +242649,6 @@ pos = (0,100);
 ref = braceright;
 }
 );
-vertWidth = 0;
 width = 380;
 }
 );
@@ -242640,7 +242665,6 @@ pos = (0,100);
 ref = bracketleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242651,7 +242675,6 @@ pos = (0,100);
 ref = bracketleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242662,7 +242685,6 @@ pos = (0,100);
 ref = bracketleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242673,7 +242695,6 @@ pos = (0,100);
 ref = bracketleft;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242684,7 +242705,6 @@ pos = (0,100);
 ref = bracketleft;
 }
 );
-vertWidth = 0;
 width = 380;
 }
 );
@@ -242701,7 +242721,6 @@ pos = (0,100);
 ref = bracketright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242712,7 +242731,6 @@ pos = (0,100);
 ref = bracketright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242723,7 +242741,6 @@ pos = (0,100);
 ref = bracketright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242734,7 +242751,6 @@ pos = (0,100);
 ref = bracketright;
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -242745,7 +242761,6 @@ pos = (0,100);
 ref = bracketright;
 }
 );
-vertWidth = 0;
 width = 380;
 }
 );
@@ -298205,19 +298220,6 @@ key = designerURL;
 value = "https://www.paratype.com/help/designers";
 },
 {
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "ParaType Ltd";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "https://www.paratype.com";
-},
-{
 key = licenses;
 values = (
 {
@@ -298229,6 +298231,19 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "ParaType Ltd";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://www.paratype.com";
 },
 {
 key = trademarks;

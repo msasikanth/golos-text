@@ -1,27 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Amacron" format="2">
-	<advance width="690"/>
-	<outline>
-		<contour>
-			<point x="522" y="0" type="line"/>
-			<point x="680" y="0" type="line" name="ab02"/>
-			<point x="420" y="700" type="line"/>
-			<point x="270" y="700" type="line" name="sh01"/>
-			<point x="10" y="0" type="line"/>
-			<point x="156" y="0" type="line" name="ab01"/>
-			<point x="209" y="143" type="line"/>
-			<point x="468" y="143" type="line" name="sv01"/>
-		</contour>
-		<contour>
-			<point x="339" y="510" type="line" name="ih01"/>
-			<point x="423" y="267" type="line" name="iv01"/>
-			<point x="255" y="267" type="line"/>
-		</contour>
-		<contour>
-			<point x="20" y="615" type="line"/>
-			<point x="320" y="615" type="line" name="av01"/>
-			<point x="320" y="705" type="line" name="sv01"/>
-			<point x="20" y="705" type="line" name="ih01"/>
-		</contour>
-	</outline>
+  <advance width="690"/>
+  <unicode hex="0100"/>
+  <outline>
+    <component base="A"/>
+    <component base="uni0304.case" xOffset="165" yOffset="15"/>
+  </outline>
 </glyph>
